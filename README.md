@@ -15,3 +15,4 @@ TO RUN from your console
 #replace your folder name 
 
 poetry run uvicorn your_folder_name.endpoint:app --reload
+
