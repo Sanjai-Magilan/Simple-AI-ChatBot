@@ -1,0 +1,24 @@
+[project]
+name = "zerotwo"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-generativeai (>=0.8.5,<0.9.0)",
+    "fastapi (>=0.116.1,<0.117.0)",
+    "unicorn (>=2.1.3,<3.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "uvicorn (>=0.35.0,<0.36.0)"
+]
+
+[tool.poetry]
+packages = [{include = "zerotwo", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
