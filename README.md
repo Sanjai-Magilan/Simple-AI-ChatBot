@@ -12,7 +12,13 @@ INSTALL DEPENDENCIS through your console
 
 TO RUN from your console
 
+1. poetry new your-app-name #your app name will be the folde rname
+
+2. cd your-app-name
+
+3. poetry init
+
 #replace your folder name 
 
-poetry run uvicorn your_folder_name.endpoint:app --reload
+4. poetry run uvicorn your_folder_name.endpoint:app --reload
 
